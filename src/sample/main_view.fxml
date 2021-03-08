@@ -17,7 +17,7 @@
          <children>
             <JFXTextField fx:id="username_jfxtf" layoutX="36.0" layoutY="86.0" prefHeight="25.0" prefWidth="280.0" promptText="Username" unFocusColor="#c6c0c0" />
             <JFXPasswordField fx:id="password_jfxtf" layoutX="36.0" layoutY="146.0" prefHeight="25.0" prefWidth="280.0" promptText="Password" unFocusColor="#c6c0c0" />
-            <JFXButton layoutX="36.0" layoutY="228.0" mnemonicParsing="false" onAction="#submit" prefHeight="46.0" prefWidth="280.0" style="-fx-background-color: #BD6200;" text="Log In" textFill="#c6c0c0" />
+            <JFXButton fx:id="submit_jfxbtn" layoutX="36.0" layoutY="228.0" mnemonicParsing="false" onAction="#submit" prefHeight="46.0" prefWidth="280.0" style="-fx-background-color: #BD6200;" text="Log In" textFill="#c6c0c0" />
             <Label layoutX="162.0" layoutY="34.0" text="Sign In" textFill="#c6c0c0" />
             <Hyperlink layoutX="141.0" layoutY="290.0" text="Forgot it?" underline="true" />
          </children></AnchorPane>
@@ -30,6 +30,12 @@
       <Label layoutX="672.0" layoutY="-9.0" onMousePressed="#exit" onTouchReleased="#exit" prefHeight="17.0" prefWidth="28.0" text="X" textFill="WHITE">
          <font>
             <Font name="TI-Nspire Sans Regular" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="157.0" prefHeight="17.0" prefWidth="86.0" text="Logged in as: " textFill="WHITE" />
+      <Label fx:id="username_lbl" layoutX="125.0" layoutY="157.0" prefHeight="17.0" prefWidth="51.0" text="None" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="12.0" />
          </font>
       </Label>
    </children>
