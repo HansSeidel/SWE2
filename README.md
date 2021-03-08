@@ -15,7 +15,8 @@ The detailed description is [here](https://moodle.technikum-wien.at/pluginfile.p
 All content used in this project that is protected by copyright 
 is only allowed to be shown within the educational purpose. 
 If this project is used outside of educational content, all copyright protected
-contents must be removed. 
+contents must be removed. Below you can see the used content:
+* [Background Image](https://wallpaperaccess.com/full/1825306.jpg)
 
 
 ### UE1
@@ -35,4 +36,4 @@ Within the first part of this project we have to do the following tasks:
 * Es ändert sich etwas per Druck auf den Button (in Kombination mit Code auf Controller/VM)
 
 #### Dependencies for UE1
- None
+ * [JFoenix](https://github.com/sshahine/JFoenix)
