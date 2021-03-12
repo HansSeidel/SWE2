@@ -1,12 +1,12 @@
 # SWEI
-##Task
+## Task
 This project is for the subject SWE at the FHTW. 
 In short form, the task of this project is to generate a JavaFX application
 which manages your routes. <br>
 The detailed description is [here](https://moodle.technikum-wien.at/pluginfile.php/957944/mod_resource/content/0/TourPlanner_exercise_2021_03_08.pdf) 
 (Note that you need permissions to read this file).
 
-##Installation and setup
+## Installation and setup
 * [JavaFX - Version 11.0.2](https://gluonhq.com/products/javafx/)
 * [Setup - Tutorial](https://www.jetbrains.com/help/idea/javafx.html)
 * [JavaFX - Scene Builder](https://gluonhq.com/products/scene-builder/)

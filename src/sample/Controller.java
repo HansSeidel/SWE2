@@ -11,7 +11,7 @@ import javafx.scene.text.Text;
 
 import java.awt.*;
 
-public class Presenter {
+public class Controller {
 
     public JFXTextField username_jfxtf;
     public JFXPasswordField password_jfxtf;
